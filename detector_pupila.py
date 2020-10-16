@@ -5,7 +5,9 @@ import numpy as np
 #img = cv2.imread('tonghlr5.bmp')
 #img = cv2.imread('vimalar3.bmp')
 #img = cv2.imread('tanwnl2.bmp')
-img = cv2.imread('winl2.bmp')
+#img = cv2.imread('winl2.bmp')
+img = cv2.imread('azules.jpg',1)
+
 
 src = cv2.medianBlur(img, 5)
 src = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
